@@ -1,0 +1,93 @@
+<request><http url="/" version="1.1" method="GET"/></request>
+<request><http url="/stylesheets/rites_packaged.css" version="1.1" method="GET"/></request>
+<request><http url="/stylesheets/print_packaged.css" version="1.1" method="GET"/></request>
+<request><http url="/javascripts/base_packaged.js" version="1.1" method="GET"/></request>
+<request><http url="/javascripts/tiny_mce/tiny_mce.js" version="1.1" method="GET"/></request>
+<request><http url="/javascripts/calendar_date_select/calendar_date_select.js" version="1.1" method="GET"/></request>
+<request><http url="/stylesheets/calendar_date_select/silver.css" version="1.1" method="GET"/></request>
+<request><http url="/images/favicon.ico" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:48:13 GMT" method="GET"/></request>
+<request><http url="/images/delete.png" version="1.1" method="GET"/></request>
+<request><http url="/images/new/bg-body.png" version="1.1" method="GET"/></request>
+<request><http url="/images/wait_long.gif" version="1.1" method="GET"/></request>
+<request><http url="/images/wait16.gif" version="1.1" method="GET"/></request>
+<request><http url="/images/new/bg-content.gif" version="1.1" method="GET"/></request>
+<request><http url="/images/new/bg-userlinks.png" version="1.1" method="GET"/></request>
+<request><http url="/images/new/banners/rites.png" version="1.1" method="GET"/></request>
+<request><http url="/images/new/headers-sprite.png" version="1.1" method="GET"/></request>
+<request><http url="/images/new/bg-sprite-btns.png" version="1.1" method="GET"/></request>
+<request><http url="/images/new/icon-arrow-more.gif" version="1.1" method="GET"/></request>
+<request><http url="/images/new/bg-footer.png" version="1.1" method="GET"/></request>
+
+<thinktime random="true" value="6"/>
+<request><http url="/session" version="1.1" contents="utf8=%E2%9C%93&amp;login=teacher&amp;password=password" content_type="application/x-www-form-urlencoded" method="POST"/></request>
+
+<thinktime random="false" value="0.1"/>
+<request><http url="/" version="1.1" method="GET"/></request>
+<request><http url="/stylesheets/rites_packaged.css" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:54:08 GMT" method="GET"/></request>
+<request><http url="/stylesheets/print_packaged.css" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:54:08 GMT" method="GET"/></request>
+<request><http url="/javascripts/base_packaged.js" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:54:11 GMT" method="GET"/></request>
+<request><http url="/javascripts/tiny_mce/tiny_mce.js" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:48:13 GMT" method="GET"/></request>
+<request><http url="/javascripts/calendar_date_select/calendar_date_select.js" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:48:13 GMT" method="GET"/></request>
+<request><http url="/stylesheets/calendar_date_select/silver.css" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:48:13 GMT" method="GET"/></request>
+<request><http url="/javascripts/clazzes_nav.js" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:48:13 GMT" method="GET"/></request>
+
+<thinktime random="true" value="4"/>
+<request><http url="/portal/classes/7" version="1.1" method="GET"/></request>
+<request><http url="/stylesheets/rites_packaged.css" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:54:08 GMT" method="GET"/></request>
+<request><http url="/stylesheets/print_packaged.css" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:54:08 GMT" method="GET"/></request>
+<request><http url="/javascripts/base_packaged.js" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:54:11 GMT" method="GET"/></request>
+<request><http url="/javascripts/tiny_mce/tiny_mce.js" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:48:13 GMT" method="GET"/></request>
+<request><http url="/javascripts/calendar_date_select/calendar_date_select.js" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:48:13 GMT" method="GET"/></request>
+<request><http url="/stylesheets/calendar_date_select/silver.css" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:48:13 GMT" method="GET"/></request>
+<request><http url="/images/preview.png" version="1.1" method="GET"/></request>
+<request><http url="/images/run.png" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:48:13 GMT" method="GET"/></request>
+<request><http url="/images/plus-minus-sprite.png" version="1.1" method="GET"/></request>
+<request><http url="/images/ajax-loader.gif" version="1.1" method="GET"/></request>
+<request><http url="/images/teacher_preview.png" version="1.1" method="GET"/></request>
+<request><http url="/javascripts/clazzes_nav.js" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:48:13 GMT" method="GET"/></request>
+
+<thinktime random="true" value="5"/>
+<request subst="true"><http url="/portal/offerings/656/report" version="1.1" method="GET"/></request>
+<request><http url="/stylesheets/rites_packaged.css" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:54:08 GMT" method="GET"/></request>
+<request><http url="/stylesheets/print_packaged.css" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:54:08 GMT" method="GET"/></request>
+<request><http url="/javascripts/tiny_mce/tiny_mce.js" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:48:13 GMT" method="GET"/></request>
+<request><http url="/javascripts/base_packaged.js" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:54:11 GMT" method="GET"/></request>
+<request><http url="/javascripts/contentflow/contentflow.js" version="1.1" method="GET"/></request>
+<request><http url="/javascripts/contentflow/ContentFlowAddOn_white.js" version="1.1" method="GET"/></request>
+<request><http url="/javascripts/contentflow/mycontentflow.css" version="1.1" method="GET"/></request>
+<request><http url="/javascripts/contentflow/contentflow.css" version="1.1" method="GET"/></request>
+<request><http url="/javascripts/contentflow/ContentFlowAddOn_white.css" version="1.1" method="GET"/></request>
+
+<thinktime random="true" value="5"/>
+<request subst="true"><http url="/portal/offerings/657/report" version="1.1" method="GET"/></request>
+<request><http url="/stylesheets/rites_packaged.css" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:54:08 GMT" method="GET"/></request>
+<request><http url="/stylesheets/print_packaged.css" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:54:08 GMT" method="GET"/></request>
+<request><http url="/javascripts/tiny_mce/tiny_mce.js" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:48:13 GMT" method="GET"/></request>
+<request><http url="/javascripts/base_packaged.js" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:54:11 GMT" method="GET"/></request>
+<request><http url="/javascripts/contentflow/contentflow.js" version="1.1" method="GET"/></request>
+<request><http url="/javascripts/contentflow/ContentFlowAddOn_white.js" version="1.1" method="GET"/></request>
+<request><http url="/javascripts/contentflow/mycontentflow.css" version="1.1" method="GET"/></request>
+<request><http url="/javascripts/contentflow/contentflow.css" version="1.1" method="GET"/></request>
+<request><http url="/javascripts/contentflow/ContentFlowAddOn_white.css" version="1.1" method="GET"/></request>
+
+<thinktime random="true" value="5"/>
+<request subst="true"><http url="/portal/offerings/754/report" version="1.1" method="GET"/></request>
+<request><http url="/stylesheets/rites_packaged.css" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:54:08 GMT" method="GET"/></request>
+<request><http url="/stylesheets/print_packaged.css" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:54:08 GMT" method="GET"/></request>
+<request><http url="/javascripts/tiny_mce/tiny_mce.js" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:48:13 GMT" method="GET"/></request>
+<request><http url="/javascripts/base_packaged.js" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:54:11 GMT" method="GET"/></request>
+<request><http url="/javascripts/contentflow/contentflow.js" version="1.1" method="GET"/></request>
+<request><http url="/javascripts/contentflow/ContentFlowAddOn_white.js" version="1.1" method="GET"/></request>
+<request><http url="/javascripts/contentflow/mycontentflow.css" version="1.1" method="GET"/></request>
+<request><http url="/javascripts/contentflow/contentflow.css" version="1.1" method="GET"/></request>
+<request><http url="/javascripts/contentflow/ContentFlowAddOn_white.css" version="1.1" method="GET"/></request>
+
+<thinktime random="true" value="9"/>
+<request><http url="/logout" version="1.1" method="GET"/></request>
+<request><http url="/" version="1.1" method="GET"/></request>
+<request><http url="/stylesheets/rites_packaged.css" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:54:08 GMT" method="GET"/></request>
+<request><http url="/stylesheets/print_packaged.css" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:54:08 GMT" method="GET"/></request>
+<request><http url="/javascripts/base_packaged.js" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:54:11 GMT" method="GET"/></request>
+<request><http url="/javascripts/tiny_mce/tiny_mce.js" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:48:13 GMT" method="GET"/></request>
+<request><http url="/javascripts/calendar_date_select/calendar_date_select.js" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:48:13 GMT" method="GET"/></request>
+<request><http url="/stylesheets/calendar_date_select/silver.css" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:48:13 GMT" method="GET"/></request>

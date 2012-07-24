@@ -1,0 +1,23 @@
+/ think=5
+#  /javascripts/tiny_mce/tiny_mce.js
+#  /javascripts/calendar_date_select/calendar_date_select.js
+#  /stylesheets/rites_packaged.css
+#  /stylesheets/print_packaged.css
+#  /javascripts/base_packaged.js
+#  /stylesheets/calendar_date_select/silver.css
+#  /images/wait_long.gif
+#  /images/wait16.gif
+#  /images/new/bg-body.png
+#  /images/delete.png
+#  /images/new/banners/rites.png
+#  /images/new/bg-content.gif
+#  /images/new/bg-userlinks.png
+#  /images/new/headers-sprite.png
+#  /images/new/bg-sprite-btns.png
+#  /images/new/icon-arrow-more.gif
+#  /images/new/bg-footer.png
+/session method=POST headers="Content-Type: application/x-www-form-urlencoded\n" contents="utf8=%E2%9C%93&login=student&password=password"
+/ think=4
+#  /images/run.png
+#  /javascripts/clazzes_nav.js
+

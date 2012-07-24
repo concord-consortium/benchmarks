@@ -1,0 +1,190 @@
+<request>
+  <http url="/" version="1.1" method="GET"/>
+</request>
+<request>
+  <http url="/stylesheets/rites_packaged.css" version="1.1" method="GET"/>
+</request>
+<request>
+  <http url="/stylesheets/print_packaged.css" version="1.1" method="GET"/>
+</request>
+<request>
+  <http url="/javascripts/base_packaged.js" version="1.1" method="GET"/>
+</request>
+<request>
+  <http url="/javascripts/tiny_mce/tiny_mce.js" version="1.1" method="GET"/>
+</request>
+<request>
+  <http url="/javascripts/calendar_date_select/calendar_date_select.js" version="1.1" method="GET"/>
+</request>
+<request>
+  <http url="/stylesheets/calendar_date_select/silver.css" version="1.1" method="GET"/>
+</request>
+<request>
+  <http url="/images/new/bg-body.png" version="1.1" method="GET"/>
+</request>
+<request>
+  <http url="/images/wait16.gif" version="1.1" method="GET"/>
+</request>
+<request>
+  <http url="/images/wait_long.gif" version="1.1" method="GET"/>
+</request>
+<request>
+  <http url="/images/delete.png" version="1.1" method="GET"/>
+</request>
+<request>
+  <http url="/images/new/bg-content.gif" version="1.1" method="GET"/>
+</request>
+<request>
+  <http url="/images/new/bg-userlinks.png" version="1.1" method="GET"/>
+</request>
+<request>
+  <http url="/images/new/banners/rites.png" version="1.1" method="GET"/>
+</request>
+<request>
+  <http url="/images/new/headers-sprite.png" version="1.1" method="GET"/>
+</request>
+<request>
+  <http url="/images/new/bg-sprite-btns.png" version="1.1" method="GET"/>
+</request>
+<request>
+  <http url="/images/new/icon-arrow-more.gif" version="1.1" method="GET"/>
+</request>
+<request>
+  <http url="/images/new/bg-footer.png" version="1.1" method="GET"/>
+</request>
+
+<thinktime random="true" value="9"/>
+
+<request>
+  <http url="/session" version="1.1" contents="utf8=%E2%9C%93&amp;login=student&amp;password=password" content_type="application/x-www-form-urlencoded" method="POST"/>
+</request>
+<request>
+  <http url="/" version="1.1" method="GET"/>
+</request>
+
+<thinktime random="true" value="1"/>
+
+<request>
+  <http url="/stylesheets/rites_packaged.css" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:54:08 GMT" method="GET"/>
+</request>
+<request>
+  <http url="/stylesheets/print_packaged.css" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:54:08 GMT" method="GET"/>
+</request>
+<request>
+  <http url="/javascripts/base_packaged.js" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:54:11 GMT" method="GET"/>
+</request>
+<request>
+  <http url="/javascripts/tiny_mce/tiny_mce.js" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:48:13 GMT" method="GET"/>
+</request>
+<request>
+  <http url="/javascripts/calendar_date_select/calendar_date_select.js" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:48:13 GMT" method="GET"/>
+</request>
+<request>
+  <http url="/stylesheets/calendar_date_select/silver.css" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:48:13 GMT" method="GET"/>
+</request>
+<request>
+  <http url="/javascripts/clazzes_nav.js" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:48:13 GMT" method="GET"/>
+</request>
+
+<thinktime random="true" value="8"/>
+
+<request>
+  <http url="/portal/offerings/1714/start.json" version="1.1" contents="students=" content_type="application/x-www-form-urlencoded; charset=UTF-8" method="POST"/>
+</request>
+<request>
+  <http url="/portal/offerings/1714.jnlp" version="1.1" method="GET"/>
+</request>
+<request>
+  <http url="/images/jnlp_icon.gif" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:48:13 GMT" method="GET"/>
+</request>
+<request>
+  <http url="/banner?rand=ffbb5c4ad28d11e1be3f22000a1e8852" version="1.1" method="GET"/>
+</request>
+<request>
+  <http url="/portal/learners/9088.config?_rails_portal_session=d50fa33a400bbdf300adaf2332edf698" version="1.1" method="GET"/>
+</request>
+<request>
+  <http url="/dataservice/bundle_loggers/9329.bundle" version="1.1" method="GET"/>
+</request>
+<request>
+  <http url="/investigations/718.dynamic_otml?learner_id=9088" version="1.1" method="GET"/>
+</request>
+<request>
+  <http url="/portal/offerings/1714/launch_status.json" version="1.1" method="GET"/>
+</request>
+<request>
+  <http url="/investigations/718.otml" version="1.1" method="GET"/>
+</request>
+<thinktime random="true" value="5"/>
+<request>
+  <http url="/portal/offerings/1714/launch_status.json" version="1.1" method="GET"/>
+</request>
+<thinktime random="true" value="4"/>
+<request>
+  <http url="/stylesheets/themes/rites/otml.css" version="1.1" method="GET"/>
+</request>
+<request>
+  <http url="/portal/offerings/1714/launch_status.json" version="1.1" method="GET"/>
+</request>
+<thinktime random="true" value="5"/>
+<request>
+  <http url="/portal/offerings/1714/launch_status.json" version="1.1" method="GET"/>
+</request>
+<thinktime random="true" value="5"/>
+<request>
+  <http url="/portal/offerings/1714/launch_status.json" version="1.1" method="GET"/>
+</request>
+<thinktime random="true" value="5"/>
+<request>
+  <http url="/portal/offerings/1714/launch_status.json" version="1.1" method="GET"/>
+</request>
+<thinktime random="true" value="5"/>
+<request>
+  <http url="/portal/offerings/1714/launch_status.json" version="1.1" method="GET"/>
+</request>
+<thinktime random="true" value="5"/>
+<request>
+  <http url="/portal/offerings/1714/launch_status.json" version="1.1" method="GET"/>
+</request>
+<request>
+  <http url="/dataservice/bundle_loggers/9329/bundle_contents.bundle" version="1.1" contents="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 CgkAAA==" content_type="application/xml" method="POST">
+    <http_header name="Content-Encoding" value="b64gzip" />
+    <http_header name="Content-md5" value="5cb2bf40c9dfc43f508609f881d9ab30" />
+  </http>
+</request>
+<thinktime random="true" value="4"/>
+<request>
+  <http url="/dataservice/console_loggers/9329/console_contents.bundle" version="1.1" contents="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" content_type="application/xml" method="POST">
+    <http_header name="Content-Encoding" value="b64gzip" />
+    <http_header name="Content-md5" value="3f337399528ad5ed9165ec9677e8c83a" />
+  </http>
+</request>
+<thinktime random="true" value="1"/>
+<request>
+  <http url="/portal/offerings/1714/launch_status.json" version="1.1" method="GET"/>
+</request>
+<thinktime random="true" value="6"/>
+<request>
+  <http url="/logout" version="1.1" method="GET"/>
+</request>
+<request>
+  <http url="/" version="1.1" method="GET"/>
+</request>
+<request>
+  <http url="/stylesheets/rites_packaged.css" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:54:08 GMT" method="GET"/>
+</request>
+<request>
+  <http url="/stylesheets/print_packaged.css" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:54:08 GMT" method="GET"/>
+</request>
+<request>
+  <http url="/javascripts/base_packaged.js" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:54:11 GMT" method="GET"/>
+</request>
+<request>
+  <http url="/javascripts/tiny_mce/tiny_mce.js" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:48:13 GMT" method="GET"/>
+</request>
+<request>
+  <http url="/javascripts/calendar_date_select/calendar_date_select.js" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:48:13 GMT" method="GET"/>
+</request>
+<request>
+  <http url="/stylesheets/calendar_date_select/silver.css" version="1.1" if_modified_since="Fri, 20 Jul 2012 06:48:13 GMT" method="GET"/>
+</request>

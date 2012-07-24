@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE tsung SYSTEM "/usr/share/tsung/tsung-1.0.dtd" [
+<!ENTITY teacher_session SYSTEM "./teacher_runs_reports.xml">
+<!ENTITY student_session SYSTEM "./student_login_launch_save.xml">
+<!ENTITY test_session SYSTEM    "./test.xml">
+]>
+<tsung backend="fullstats" dumptraffic="false" loglevel="notice" version="1.0">
+  <!-- Client side setup -->
+  <clients>
+    <!--<client host="localhost" use_controller_vm="true" maxusers="15000"/>-->
+    <client host="ec2-23-22-95-91.compute-1.amazonaws.com" use_controller_vm="false"/>
+  </clients>
+  <!-- Server side setup -->
+  <servers>
+    <server host="rites-investigations.staging.concord.org" port="80" type="tcp"/>
+  </servers>
+  <!-- to start os monitoring (cpu, network, memory). Use an erlang
+  agent on the remote machine or SNMP. erlang is the default -->
+  <monitoring>
+    <monitor host="rites-investigations.staging.concord.org" type="snmp" />
+  </monitoring>
+  <load>
+    <!-- several arrival phases can be set: for each phase, you can set
+  the mean inter-arrival time between new clients and the phase
+  duration -->
+    <arrivalphase phase="1" duration="10" unit="minute">
+      <users maxnumber="1" arrivalrate="1" unit="second"/>
+    </arrivalphase>
+  </load>
+  <options>
+    <option type="ts_http" name="user_agent">
+      <user_agent probability="80">Mozilla/5.0 (Windows NT 6.1; WOW64; rv:13.0) Gecko/20100101 Firefox/13.0.1</user_agent>
+      <user_agent probability="20">Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.47 Safari/536.11</user_agent>
+    </option>
+    <option name="idle_timeout" value="60000"></option>
+    <option name="global_ack_timeout" value="60000"></option>
+  </options>
+  <sessions>
+    <session name="rec20120720-1011" probability="100" type="ts_http">
+      <!--&test_session;-->
+      &teacher_session;
+      <!--&student_session;-->
+    </session>
+  </sessions>
+</tsung>

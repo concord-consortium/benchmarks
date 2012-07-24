@@ -1,0 +1,64 @@
+<request><http url='/' version='1.1' method='GET'></http></request>
+<request><http url='/signin/' version='1.1' method='GET'></http></request>
+
+<thinktime random='true' value='1'/>
+
+<request><http url='/signin/' version='1.1' method='GET'></http></request>
+<request><http url='/scripts/utilities.js' version='1.1' method='GET'></http></request>
+<request><http url='/scripts/yahoo-dom-event.js' version='1.1' method='GET'></http></request>
+<request><http url='/scripts/datasource-beta-min.js' version='1.1' method='GET'></http></request>
+<request><http url='/scripts/datatable-beta-min.js' version='1.1' method='GET'></http></request>
+<request><http url='/scripts/jquery-1.2.6.min.js' version='1.1' method='GET'></http></request>
+<request><http url='/scripts/jquery.tablesorter.pack.js' version='1.1' method='GET'></http></request>
+<request><http url='/css/loops.css' version='1.1' method='GET'></http></request>
+<request><http url='/scripts/portal.js' version='1.1' method='GET'></http></request>
+<request><http url='/scripts/jqalerts/jqalerts.js' version='1.1' method='GET'></http></request>
+<request><http url='/scripts/jqalerts/jqalerts.css' version='1.1' method='GET'></http></request>
+<request><http url='/scripts/jqalerts/override.css' version='1.1' method='GET'></http></request>
+<request><http url='/images/loops-logo-tagline.gif' version='1.1' method='GET'></http></request>
+<request><http url='/images/students-using-portal.jpg' version='1.1' method='GET'></http></request>
+<request><http url='/images/cc_logo_gray_text.gif' version='1.1' method='GET'></http></request>
+
+<thinktime random='true' value='1'/>
+
+<request><http url='/signin/process/' version='1.1'  contents='username=aaronu2&amp;password=password' content_type='application/x-www-form-urlencoded' method='POST'></http></request>
+<request><http url='/' version='1.1' method='GET'></http></request>
+<request><http url='/images/icons/picture.png' version='1.1' method='GET'></http></request>
+<request><http url='/images/icons/cog.png' version='1.1' method='GET'></http></request>
+<request><http url='/images/icons/page_white_copy.png' version='1.1' method='GET'></http></request>
+<request><http url='/images/icons/chart_bar.png' version='1.1' method='GET'></http></request>
+<request><http url='/images/icons/page_white_get.png' version='1.1' method='GET'></http></request>
+<request><http url='/images/icons/folder_page_white.png' version='1.1' method='GET'></http></request>
+<request><http url='/images/icons/cross.png' version='1.1' method='GET'></http></request>
+<request><http url='/images/icons/add.png' version='1.1' method='GET'></http></request>
+<request><http url='/images/icons/group_gear.png' version='1.1' method='GET'></http></request>
+
+<thinktime random='true' value='1'/>
+
+<request><http url='/class/report/419/' version='1.1' method='GET'></http></request>
+<request><http url='/images/icons/tick.png' version='1.1' method='GET'></http></request>
+
+<thinktime random='true' value='1'/>
+
+<request><http url='/member/report/3606' version='1.1' method='GET'></http></request>
+
+<thinktime random='true' value='1'/>
+
+<request><http url='/' version='1.1' method='GET'></http></request>
+
+<thinktime random='true' value='1'/>
+
+<request><http url='/class/edit/418/' version='1.1' method='GET'></http></request>
+<request><http url='/images/icons/apple.png' version='1.1' method='GET'></http></request>
+<request><http url='/images/icons/information.png' version='1.1' method='GET'></http></request>
+<request><http url='/images/icons/bullet_go.png' version='1.1' method='GET'></http></request>
+<request><http url='/images/icons/picture_go.png' version='1.1' method='GET'></http></request>
+
+<thinktime random='true' value='1'/>
+
+<request><http url='/activities/' version='1.1' method='GET'></http></request>
+
+<thinktime random='true' value='1'/>
+
+<request><http url='/signout/' version='1.1' method='GET'></http></request>
+<request><http url='/signin/?signout' version='1.1' method='GET'></http></request>
